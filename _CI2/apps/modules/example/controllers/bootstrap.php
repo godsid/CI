@@ -1,6 +1,6 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
-class Example extends CI_Controller {
+class Bootstrap extends CI_Controller {
 
 	/**
 	 * Index Page for this controller.
@@ -19,7 +19,7 @@ class Example extends CI_Controller {
 	 */
 	public function index()
 	{
-		$this->load->view('example');
+		$this->load->view('bootstrap/index');
 	}
 }
 

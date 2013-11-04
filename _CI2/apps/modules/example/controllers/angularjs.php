@@ -19,7 +19,7 @@ class Angularjs extends CI_Controller {
 	 */
 	public function index()
 	{
-		$this->load->view('angularjs');
+		$this->load->view('angularjs/index');
 	}
 }
 
